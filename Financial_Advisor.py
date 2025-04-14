@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 
-df = pd.read_csv("C:\\Finance-Advisor\\indian_financial_advisors_extended.csv") 
+df = pd.read_csv("indian_financial_advisors_extended.csv") 
 
 
 st.set_page_config(page_title="Financial Advisor Recommender", layout="centered")
